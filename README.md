@@ -42,13 +42,6 @@ https://github.com/dotnet/eShopOnContainers/wiki/03.-Setting-the-eShopOnContaine
 For those who prefer the CLI on a Mac, using dotnet CLI, docker CLI and VS Code for Mac:
 https://github.com/dotnet-architecture/eShopOnContainers/wiki/04.-Setting-eShopOnContainer-solution-up-in-a-Mac,-VS-for-Mac-or-with-CLI-environment--(dotnet-CLI,-Docker-CLI-and-VS-Code)
 
-## Orchestrators: Kubernetes and Service Fabric
-See at the [Wiki](https://github.com/dotnet-architecture/eShopOnContainers/wiki) the posts on setup/instructions about how to deploy to Kubernetes or Service Fabric in Azure (although you could also deploy to any other cloud or on-premises).
-
 ## Sending feedback and pull requests
 As mentioned, we'd appreciate your feedback, improvements and ideas.
-You can create new issues at the issues section, do pull requests and/or send emails to **eshop_feedback@service.microsoft.com**
-
-## Questions
-[QUESTION] Answer +1 if the solution is working for you (Through VS2017 or CLI environment):
-https://github.com/dotnet/eShopOnContainers/issues/107
+You can create new issues at the issues section, do pull requests and/or send emails to **yangxiaodong1214@126.com**
