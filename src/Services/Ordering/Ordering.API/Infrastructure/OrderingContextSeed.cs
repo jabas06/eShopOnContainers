@@ -155,7 +155,7 @@
 
         private string[] GetHeaders(string[] requiredHeaders, string csvfile)
         {
-            string[] csvheaders = File.ReadLines(csvfile).First().ToLowerInvariant().Split(',');
+            string[] csvheaders = File.ReadLines(csvfile).First().Split(',');
 
             if (csvheaders.Count() != requiredHeaders.Count())
             {

@@ -22,6 +22,8 @@ namespace Payment.API.IntegrationEvents.EventHandling
             _eventBus = eventBus;
             _settings = settings.Value;
             _logger = logger ?? throw new System.ArgumentNullException(nameof(logger));
+
+            _logger.LogTrace("PaymentSettings: {@PaymentSettings}", _settings);
         }
 
         [CapSubscribe(nameof(OrderStatusChangedToStockConfirmedIntegrationEvent))]
