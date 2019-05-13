@@ -27,7 +27,7 @@ namespace Ordering.API.Application.IntegrationEvents
         {
             _logger.LogInformation("----- Enqueuing integration event to repository ({@IntegrationEvent})", evt);
 
-            _eventBus.Transaction.Begin(_orderingContext.GetCurrentTransaction.GetDbTransaction());
+            _eventBus.Transaction.Begin(_orderingContext.GetCurrentTransaction());
             await _eventBus.PublishAsync(evt.GetGenericTypeName(), evt);
         }
     }
